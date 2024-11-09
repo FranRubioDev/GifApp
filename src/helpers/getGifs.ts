@@ -2,6 +2,7 @@ import { GifT } from "../types";
 
 export const getGifs = async(category: string): Promise<GifT[]> => {
 
+    // La clave está limitada por lo que no es problema subirla a Github
     const url = `https://api.giphy.com/v1/gifs/search?api_key=xlElw7Rt4VfFozrVfHkRk4uNNM0TVDSS&q=${category}&limit=4`
     const resp = await fetch(url);
     const { data = [] } = await resp.json();
