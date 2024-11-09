@@ -18,7 +18,7 @@ export default function App() {
             </header>
 
             <div className="max-w-6xl mx-auto px-4 py-10">
-            <p className="text-s text-white bg-gradient-to-r from-pink-500 to-purple-500 rounded-full p-2 max-w-fit shadow-md">Powered by GIPHY</p>   
+            <img src="\img\PoweredBy_200_Horizontal_Light-Backgrounds_With_Logo.gif" alt="Powered by GIPHY" className="rounded-full p-2 max-w-fit shadow-md" />
                 <div className="flex justify-center mb-8">
                     <AddCategory onNewCategory={onAddCategory} />
                 </div>
