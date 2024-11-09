@@ -4,7 +4,7 @@ import GifGrid  from "./components/GifGrid";
 
 
 export default function App() {
-    const [categories, setCategories] = useState(['Dragon Ball Z', 'Picachu']);
+    const [categories, setCategories] = useState(['Dragon Ball Z', 'Pikachu']);
 
     const onAddCategory = (newCategory: string) => {
         if (categories.includes(newCategory)) return;
